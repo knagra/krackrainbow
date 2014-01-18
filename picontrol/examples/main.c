@@ -31,6 +31,7 @@ int main(int argc, char **argv) {
   int i = 0, j = 0, addr = 0;;
   unsigned char frame[192] = {0};
   unsigned long delay;
+  int count = 0;
 
   if (argc > 1) {
     delay = strtoul(argv[1], NULL, 0);
@@ -50,6 +51,7 @@ int main(int argc, char **argv) {
     }
 
     usleep(delay);
+    count++;
   }
 
 }
