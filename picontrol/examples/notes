@@ -10,3 +10,7 @@ in total for each line.  The first two characters represent the panel number (be
 and 30 in hex), the next 64 represent the green values for the pixels on that panel, the
 next 64 represent the red values for the pixels on that panel, and the last 64 represent
 the blue values for that panel.
+
+
+x and y are indexed at the bottom right corner:  The top left pixel is (x = 47, y = 23)
+and the bottom right pixel is (x = 0, y = 0).
